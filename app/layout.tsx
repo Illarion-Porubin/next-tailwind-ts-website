@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "../components/Navbar";
-import { Footet } from "../components/Footet";
+import { Footer } from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Travel",
@@ -20,7 +20,7 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
         </main>
-        <Footet />
+        <Footer />
       </body>
     </html>
   );
